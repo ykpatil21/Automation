@@ -51,6 +51,7 @@ public class TestBase {
 			driver=new FirefoxDriver();	
 		}
 		
+		//Palak
 		e_driver=new EventFiringWebDriver(driver);
 		//Now create object of EventListenerHandler to register it with EventFiringWebDriver
 		eventListener= new WebEventListener();
